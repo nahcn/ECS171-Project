@@ -61,8 +61,9 @@ In the plots below, we can compare how state_population, prisoner_count, violent
 
 
  Guide to tell which numbers reference each state. 
-
-\begin{multicols}{3}
+ 
+ \begin{multicols}{3}
+[
 # 0- Alabama
 # 1- Alaska
 # 2- Arizona
@@ -113,6 +114,9 @@ In the plots below, we can compare how state_population, prisoner_count, violent
 # 47- West Virginia
 # 48- Wisconsin
 # 49- Wyoming
+
+]
+\blindtext\blindtext
 \end{multicols}
 
 Results:
