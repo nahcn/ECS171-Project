@@ -118,19 +118,17 @@ Results:
 2001 vs. 2015:
 
 
-For both 2001 and 2015, we see from the plots below that states with higher populations also had higher prisoner_count. And the state of Florida that was added to the high state_population cluster in 2015, was also added to the high prisoner_count cluster in 2015. 
-
+For both 2001 and 2015, states with higher populations also had higher prisoner_count. And the state of Florida that was added to the high state_population cluster in 2015, was also added to the high prisoner_count cluster in 2015. 
 
 
 For violent_crime_total, we notice little change in the states in each cluster between 2001 and 2014, which verifies the small correlation between violent_crime_total and state_population found in the correlation matrix, since we know the population of states increased between 2001 and 2015.
 
 
-In the correlation matrix, there is an even smaller correlation between burglary and state_population, which we can see in the plots below, given the clusters between 2001 and 2015 did not change much.
+In the correlation matrix, there is an even smaller correlation between burglary and state_population, given the clusters between 2001 and 2015 did not change much.
 
 
 
 Comparing clusters for prisoner_count and burglary for 2001 and 2015, we can see that the positive correlation between these two features remains consistent. States with higher burglary rates were in the cluster of higher prisoner count and states with lower burglary rates were in the lower burglary rate cluster.
-
 
 
 Lastly, looking at a 3D K-means cluster, we see that consistent across 2001 and 2015, states with lower burglary had less violent crime and less prisoner population, and states with high burglary rates had high violent crime rates and higher prisoner population. Although the correlation between poverty_rate and burglary, and poverty_rate and violent_crime was not as we expected, the correlation between violent_crime, burglary, and prisoner_count was. So, states with more poverty does not mean there is more incarceration. To understand better how poverty affects incarceration rate, it would be interesting to do a focused data analysis of states with both extreme poverty and extreme wealth and look at their crime rate and prisoner_count compared to states that have more of a working class population.
